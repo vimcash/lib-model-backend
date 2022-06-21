@@ -17,4 +17,4 @@ export const BBTurnDeviceModel = mongoose.model<BBTurnDeviceDocument, Model>(
   Schema
 );
 
-export default BBTurnDeviceModel
+export default BBTurnDeviceModel 

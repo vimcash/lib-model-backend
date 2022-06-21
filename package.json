@@ -1,0 +1,29 @@
+{
+  "name": "vcl-model",
+  "version": "1.0.0",
+  "description": "Libreria de modelos",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up-interface": "npm uninstall vcl-interface & npm install vcl-interface"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimcash/lib-model-backend.git"
+  },
+  "keywords": [],
+  "author": "VimCash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimcash/lib-model-backend/issues"
+  },
+  "homepage": "https://github.com/vimcash/lib-model-backend#readme",
+  "dependencies": {
+    "mongoose": "^6.4.0",
+    "vcl-interface": "^1.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

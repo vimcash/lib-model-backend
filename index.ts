@@ -1,2 +1,1 @@
-import { BBTurnDeviceModel } from "./BBTurnDevice";
-import { BBTurnDeviceDocument } from "./BBTurnDevice";
+export { HolaMundo } from "./BBTurnDevice"

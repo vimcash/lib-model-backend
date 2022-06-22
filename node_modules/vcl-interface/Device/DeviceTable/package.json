@@ -1,5 +1,0 @@
-{
-    "sideEffects": false,
-    "module": "../index.js",
-    "typings": "../types/Device/DeviceTable/index.d.ts"
-}

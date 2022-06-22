@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/vimcash/lib-model-backend#readme",
   "dependencies": {
-    "@types/mongoose": "^5.11.97",
+    "@types/mongoose": "^5.7.22",
     "mongoose": "^5.13.14",
     "my-awesome-greeter": "^1.0.2",
     "vcl-interface": "^1.1.14"

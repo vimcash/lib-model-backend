@@ -105,7 +105,7 @@ dist
 # Compilado
 tsconfig.json.txt
 
-#node_modules
+# node_modules
 /node_modules/.bin
 /node_modules/@types
 /node_modules/bl

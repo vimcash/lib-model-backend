@@ -1,1 +1,0 @@
-export { Prueb } from "./BBTurnDevice";

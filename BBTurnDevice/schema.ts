@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
-//import { DeviceStatus } from 'vcl-interface';
+import { Schema as schema} from 'mongoose';
+import { DeviceStatus } from 'vcl-interface';
 
-/*export const Schema = new mongoose.Schema
+export const Schema = new schema
 (
   {
     companyID: {
@@ -24,7 +24,7 @@ import mongoose from 'mongoose';
       default: DeviceStatus.user,
     },
     createdAt: {
-      type: mongoose.Schema.Types.Date,
+      type: schema.Types.Date,
       default: Date.now,
     },
     createdBy: {
@@ -32,7 +32,7 @@ import mongoose from 'mongoose';
       lowercase: true
     },
     udpatedAt: {
-      type: mongoose.Schema.Types.Date,
+      type: schema.Types.Date,
       default: Date.now,
     },
     updatedBy: {
@@ -50,4 +50,3 @@ import mongoose from 'mongoose';
     },
   }
 );
-*/

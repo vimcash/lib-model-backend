@@ -1,4 +1,3 @@
-import * as mongoose from "mongoose";
 //import { Schema } from './schema';
 import { Greeter } from "my-awesome-greeter"
 

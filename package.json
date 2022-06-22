@@ -31,12 +31,5 @@
   },
   "devDependencies": {
     "@types/mongoose": "^5.7.22"
-  },
-  "config": {
-    "dependencies_base": "./node_modules/vcl-interface",
-    "dependencies_dest": "lib/",
-    "dependencies": [
-      "index.js"
-    ]
   }
 }

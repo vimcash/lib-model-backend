@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import * as mongoose from "mongoose";
 import { BBTurnDeviceTable } from "vcl-interface"
 import { Schema } from './schema';
 

@@ -107,7 +107,7 @@ tsconfig.json.txt
 
 # node_modules
 /node_modules/.bin
-/node_modules/@types
+#/node_modules/@types
 /node_modules/bl
 /node_modules/bluebird
 # /node_modules/bson

@@ -136,6 +136,16 @@ tsconfig.json.txt
 /node_modules/util-deprecate
 /node_modules/tr46
 /node_modules/webidl-conversions
+/node_modules/base64-js
+/node_modules/buffer
+/node_modules/ieee754
+/node_modules/ip
+/node_modules/punycode
+/node_modules/smart-buffer
+/node_modules/socks
+/node_modules/whatwg-url
+/node_modules/mongodb
+/node_modules/mongodb-connection-string-url
 /node_modules/.package-lock.json
 /node_modules/LICENSE
 /node_modules/*.md

@@ -1,4 +1,4 @@
-import { Schema as schema} from 'mongoose';
+import { Schema as schema } from 'mongoose';
 import { DeviceStatus } from 'vcl-interface';
 
 export const Schema = new schema

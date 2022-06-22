@@ -1,1 +1,1 @@
-export { HolaMundo } from "./BBTurnDevice"
+export { Prueb } from "./BBTurnDevice"

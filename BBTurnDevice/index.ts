@@ -1,9 +1,9 @@
 //import { Schema } from './schema';
-import { Greeter } from "my-awesome-greeter"
+import { BBTurnDevice } from "vcl-interface";
 
 
-export const HolaMundo = () => {
-  console.log(Greeter("Miguel Pablo"));
+export interface Prueb extends BBTurnDevice {
+  
 }
 /*export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }
 

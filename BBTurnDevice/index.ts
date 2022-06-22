@@ -1,8 +1,12 @@
 import * as mongoose from "mongoose";
-import { BBTurnDeviceTable } from "vcl-interface";
 import { Schema } from './schema';
+import { Greeter } from "my-awesome-greeter"
 
-export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }
+
+export const HolaMundo = () => {
+  console.log(Greeter("Miguel Pablo"));
+}
+/*export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }
 
 interface Model extends mongoose.Model<BBTurnDeviceDocument> {
   build(atrib: BBTurnDeviceTable): BBTurnDeviceDocument;
@@ -17,4 +21,4 @@ export const BBTurnDeviceModel = mongoose.model<BBTurnDeviceDocument, Model>(
   Schema
 );
 
-export default BBTurnDeviceModel 
+export default BBTurnDeviceModel */

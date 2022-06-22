@@ -134,6 +134,8 @@ tsconfig.json.txt
 /node_modules/sparse-bitfield
 /node_modules/string_decoder
 /node_modules/util-deprecate
+/node_modules/tr46
+/node_modules/webidl-conversions
 /node_modules/.package-lock.json
 /node_modules/LICENSE
 /node_modules/*.md

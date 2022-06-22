@@ -1,10 +1,5 @@
-//import { Schema } from './schema';
-import { BBTurnDevice } from "vcl-interface";
-
-
-export interface Prueb extends BBTurnDevice {
-  
-}
+"use strict";
+exports.__esModule = true;
 /*export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }
 
 interface Model extends mongoose.Model<BBTurnDeviceDocument> {

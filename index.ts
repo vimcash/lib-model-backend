@@ -1,1 +1,1 @@
-export { BBTurnDeviceModel } from "./BBTurnDevice";
+export { Prueb } from "./BBTurnDevice"

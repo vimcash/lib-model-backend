@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import { DeviceStatus } from 'vcl-interface';
+//import { DeviceStatus } from 'vcl-interface';
 
-export const Schema = new mongoose.Schema
+/*export const Schema = new mongoose.Schema
 (
   {
     companyID: {
@@ -50,3 +50,4 @@ export const Schema = new mongoose.Schema
     },
   }
 );
+*/

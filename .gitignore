@@ -108,3 +108,4 @@ dist
 /types/
 index.js
 schema.js
+tsconfig.json.txt

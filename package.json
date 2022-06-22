@@ -8,7 +8,8 @@
     "build-node": "tsc index.ts",
     "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
     "build": "npm run build-node & npm run build-types",
-    "up-interface": "npm uninstall vcl-interface & npm install vcl-interface"
+    "up-interface": "npm uninstall vcl-interface & npm install vcl-interface",
+    "dependencies": "build-dependencies"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,16 @@
     "mongoose": "^5.13.14",
     "my-awesome-greeter": "^1.0.2",
     "typescript": "^4.7.4",
-    "vcl-interface": "^1.1.11"
+    "vcl-interface": "^1.1.14"
   },
   "devDependencies": {
     "@types/mongoose": "^5.7.22"
+  },
+  "config": {
+    "dependencies_base": "./node_modules/vcl-interface",
+    "dependencies_dest": "lib/",
+    "dependencies": [
+      "index.js"
+    ]
   }
 }

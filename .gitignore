@@ -104,8 +104,6 @@ dist
 .tern-port
 
 # Compilado
-/index.js
 /types/
-index.js
 schema.js
 tsconfig.json.txt

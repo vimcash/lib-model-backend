@@ -106,21 +106,21 @@ dist
 tsconfig.json.txt
 
 #node_modules
-# /node_modules/.bin
-# /node_modules/@types
-# /node_modules/bl
-# /node_modules/bluebird
-# /node_modules/bson
-# /node_modules/core-util-is
-# /node_modules/debug
-# /node_modules/denque
-# /node_modules/inherits
-# /node_modules/isarray
-# /node_modules/kareem
-# /node_modules/memory-pager
-# /node_modules/mpath
-# /node_modules/mquery
-# /node_modules/ms
+/node_modules/.bin
+/node_modules/@types
+/node_modules/bl
+/node_modules/bluebird
+/node_modules/bson
+/node_modules/core-util-is
+/node_modules/debug
+/node_modules/denque
+/node_modules/inherits
+/node_modules/isarray
+/node_modules/kareem
+/node_modules/memory-pager
+/node_modules/mpath
+/node_modules/mquery
+/node_modules/ms
 # /node_modules/my-awesome-greeter
 # /node_modules/optional-require
 # /node_modules/process-nextick-args

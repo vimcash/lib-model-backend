@@ -137,7 +137,7 @@ tsconfig.json.txt
 /node_modules/tr46
 /node_modules/webidl-conversions
 /node_modules/base64-js
-/node_modules/buffer
+#/node_modules/buffer
 /node_modules/ieee754
 /node_modules/ip
 /node_modules/punycode

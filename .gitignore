@@ -113,7 +113,7 @@ tsconfig.json.txt
 # /node_modules/bson
 /node_modules/core-util-is
 /node_modules/debug
-/node_modules/denque
+#/node_modules/denque
 /node_modules/inherits
 /node_modules/isarray
 #  /node_modules/kareem
@@ -128,7 +128,7 @@ tsconfig.json.txt
 /node_modules/regexp-clone
 /node_modules/require-at
 /node_modules/safe-buffer
-/node_modules/saslprep
+# /node_modules/saslprep
 /node_modules/sift
 /node_modules/sliced
 /node_modules/sparse-bitfield
@@ -142,8 +142,8 @@ tsconfig.json.txt
 /node_modules/ip
 /node_modules/punycode
 /node_modules/smart-buffer
-/node_modules/socks
-/node_modules/whatwg-url
+# /node_modules/socks
+# /node_modules/whatwg-url
 /node_modules/.package-lock.json
 /node_modules/LICENSE
 /node_modules/*.md

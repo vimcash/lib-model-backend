@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import BBTurnDeviceTable from "vcl-interface/BBTurnDevice/BBTurnDeviceTable"
+import { BBTurnDeviceTable } from "vcl-interface"
 import { Schema } from './schema';
 
 export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }

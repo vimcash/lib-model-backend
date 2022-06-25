@@ -7,6 +7,7 @@ export const Schema = new schema
       type: String,
       required: true,
       lowercase: true,
+      unique: true
     },
     password: {
       type: String,

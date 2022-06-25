@@ -6,7 +6,8 @@ exports.Schema = new mongoose_1.Schema({
     username: {
         type: String,
         required: true,
-        lowercase: true
+        lowercase: true,
+        unique: true
     },
     password: {
         type: String,

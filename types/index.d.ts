@@ -1,0 +1,1 @@
+export { BBTurnDeviceModel } from "./BBTurnDevice";

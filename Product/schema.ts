@@ -3,36 +3,20 @@ import { Schema as schema } from 'mongoose';
 export const Schema = new schema
 (
   {
-    username: {
+    companyID: {
       type: String,
       required: true,
       lowercase: true,
-      unique: true,
       trim: true
     },
-    password: {
+    productName: {
       type: String,
-      required: true,
-    },
-    firstName: {
-      type: String,
-      required: true,
       uppercase: true,
-      trim: true
-    },
-    lastName: {
-      type: String,
       required: true,
-      uppercase: true,
-      trim: true
     },
-    phoneNumber: {
+    productDesc: {
       type: String,
-    },
-    email: {
-      type: String,
-      lowecase: true,
-      trim: true
+      lowercase: true,
     },
     createdAt: {
       type: schema.Types.Date,

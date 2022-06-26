@@ -2,3 +2,4 @@ src
 .npmrc
 index.ts
 schema.ts
+.github

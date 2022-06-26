@@ -157,6 +157,4 @@ tsconfig.json.txt
 # /node_modules/*/*/*/*/*.yaml
 
 /node_modules
-/types/
-index.js
 

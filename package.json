@@ -1,6 +1,6 @@
 {
   "name": "vcl-model",
-  "version": "1.0.2",
+  "version": "1.0.15",
   "description": "Libreria de modelos",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -24,19 +24,9 @@
   "homepage": "https://github.com/vimcash/lib-model-backend#readme",
   "dependencies": {
     "@types/node": "^18.0.0",
-    "mongoose": "^5.13.14",
+    "mongoose": "^6.4.0",
     "my-awesome-greeter": "^1.0.2",
     "typescript": "^4.7.4",
-    "vcl-interface": "^1.1.14"
-  },
-  "devDependencies": {
-    "@types/mongoose": "^5.7.22"
-  },
-  "config": {
-    "dependencies_base": "./node_modules/vcl-interface",
-    "dependencies_dest": "lib/",
-    "dependencies": [
-      "index.js"
-    ]
+    "vcl-interface": "^1.1.16"
   }
 }

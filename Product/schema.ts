@@ -1,5 +1,4 @@
 import { Schema as schema } from 'mongoose';
-import { DeviceStatus } from 'vcl-interface';
 
 export const Schema = new schema
 (
@@ -7,21 +6,17 @@ export const Schema = new schema
     companyID: {
       type: String,
       required: true,
-    },
-    deviceNickname: {
-      type: String,
-      required: true,
       lowercase: true,
+      trim: true
     },
-    deviceNumber: {
+    productName: {
       type: String,
+      uppercase: true,
       required: true,
     },
-    deviceStatus: {
+    productDesc: {
       type: String,
-      required: true,
-      enum: Object.values(DeviceStatus),
-      default: DeviceStatus.user,
+      lowercase: true,
     },
     createdAt: {
       type: schema.Types.Date,
@@ -29,7 +24,8 @@ export const Schema = new schema
     },
     createdBy: {
       type: String,
-      lowercase: true
+      lowercase: true,
+      trim: true
     },
     udpatedAt: {
       type: schema.Types.Date,
@@ -37,7 +33,8 @@ export const Schema = new schema
     },
     updatedBy: {
       type: String,
-      lowercase: true
+      lowercase: true,
+      trim: true
     },
   },
   {

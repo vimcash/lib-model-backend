@@ -1,13 +1,10 @@
-//import { Schema } from './schema';
-import { BBTurnDevice } from "vcl-interface";
+import { Schema } from './schema';
+import { Document as document, model as mdl, Model as model} from "mongoose";
+import { BBTurnDeviceTable } from "vcl-interface";
 
+export interface BBTurnDeviceDocument extends document, BBTurnDeviceTable { }
 
-export interface Prueb extends BBTurnDevice {
-  
-}
-/*export interface BBTurnDeviceDocument extends mongoose.Document, BBTurnDeviceTable { }
-
-interface Model extends mongoose.Model<BBTurnDeviceDocument> {
+interface Model extends model<BBTurnDeviceDocument> {
   build(atrib: BBTurnDeviceTable): BBTurnDeviceDocument;
 }
 
@@ -15,9 +12,9 @@ Schema.statics.build = (atrib: BBTurnDeviceTable) => {
   return new BBTurnDeviceModel(atrib);
 };
 
-export const BBTurnDeviceModel = mongoose.model<BBTurnDeviceDocument, Model>(
+export const BBTurnDeviceModel = mdl<BBTurnDeviceDocument, Model>(
   'Device',
   Schema
 );
 
-export default BBTurnDeviceModel */
+export default BBTurnDeviceModel

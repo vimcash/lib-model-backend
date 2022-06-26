@@ -2,7 +2,7 @@ name: lib-model-backend
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
 
 jobs:
   build:
@@ -17,6 +17,7 @@ jobs:
       - run: |
           git config --global user.email "stifler9.0@hotmail.com"
           git config --global user.name "Eloy castillo"
+          npm install
           npm run build
           npm version --no-git-tag-version patch
           npm publish --access public 

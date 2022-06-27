@@ -18,7 +18,8 @@ jobs:
           git config --global user.email "stifler9.0@hotmail.com"
           git config --global user.name "Eloy castillo"
           npm install
-          npm run build
+          tsc index.ts
+          npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly
           npm version --no-git-tag-version patch
           npm publish --access public 
           git add .

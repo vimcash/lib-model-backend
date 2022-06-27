@@ -3,3 +3,5 @@ src
 index.ts
 schema.ts
 .github
+/*/*.js
+/*/package.json

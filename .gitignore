@@ -160,3 +160,5 @@ tsconfig.json.txt
 /types/
 index.js
 schema.js
+schema.d.ts
+index.d.ts

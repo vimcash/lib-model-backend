@@ -159,4 +159,5 @@ tsconfig.json.txt
 /node_modules
 /types/
 index.js
+schema.js
 

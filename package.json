@@ -1,13 +1,12 @@
 {
   "name": "vcl-model",
-  "version": "1.0.15",
+  "version": "1.0.19",
   "description": "Libreria de modelos",
   "main": "index.js",
-  "types": "types/index.d.ts",
+  "types": "dist/index.js",
   "scripts": {
-    "build-node": "tsc index.ts",
-    "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly --outDir types",
-    "build": "npm run build-node & npm run build-types",
+    "build-node": "tsc index.ts --outDir dist",
+    "build": "npm run build-node",
     "up-interface": "npm uninstall vcl-interface & npm install vcl-interface",
     "dependencies": "build-dependencies"
   },
@@ -27,6 +26,6 @@
     "mongoose": "^6.4.0",
     "my-awesome-greeter": "^1.0.2",
     "typescript": "^4.7.4",
-    "vcl-interface": "^1.1.16"
+    "vcl-interface": "^1.1.22"
   }
 }

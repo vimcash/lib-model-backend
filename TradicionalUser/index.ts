@@ -13,7 +13,7 @@ Schema.statics.build = (atrib: TradicionalUserTable) => {
 };
 
 export const TradicionalUserModel = mdl<TradicionalUserDocument, Model>(
-  'User',
+  'MDVC002T',
   Schema
 );
 

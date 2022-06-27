@@ -13,7 +13,7 @@ Schema.statics.build = (atrib: ProductTable) => {
 };
 
 export const ProductModel = mdl<ProductDocument, Model>(
-  'MDVC300',
+  'MDVC003',
   Schema
 );
 

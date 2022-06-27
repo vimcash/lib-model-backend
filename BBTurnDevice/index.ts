@@ -13,7 +13,7 @@ Schema.statics.build = (atrib: BBTurnDeviceTable) => {
 };
 
 export const BBTurnDeviceModel = mdl<BBTurnDeviceDocument, Model>(
-  'Device',
+  'MDVC003B',
   Schema
 );
 

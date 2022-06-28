@@ -16,12 +16,10 @@ Schema.statics.build = (atrib: TradicionalUserTable) => {
 
 Schema.statics.existUser = async(username: string, pass: string) => {
   const usuarioExiste = await TradicionalUserModel.findOne({ username });
-  const passwordsMatch = await Password.compare(
-    usuarioExiste!.password.toString(),
+  return await Password.compare(
+    usuarioExiste!.password,
     pass
-  )
-  .then(() => { return passwordsMatch ? true : false })
-  .catch(() => { return false });
+  );
 }
 
 export const TradicionalUserModel = mdl<TradicionalUserDocument, Model>(

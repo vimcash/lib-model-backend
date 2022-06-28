@@ -103,7 +103,6 @@ dist
 .tern-port
 
 # Compilado
-
 tsconfig.json.txt
 /node_modules
 /types/

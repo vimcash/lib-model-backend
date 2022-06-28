@@ -1,5 +1,5 @@
 import { Schema as schema } from 'mongoose';
-import { Password } from '../services/password'
+import { hash } from "../Core/hash"
 
 export const Schema = new schema
 (
@@ -67,7 +67,7 @@ export const Schema = new schema
 
 Schema.pre('save', async function(this: any, done: any) {
   if (this.isModified('password')) {
-    const hashed = await Password.toHash(this.get('password'));
+    const hashed = await hash(this.get('password'));
     this.set('password', hashed);
   }
   done();

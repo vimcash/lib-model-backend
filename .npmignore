@@ -2,6 +2,7 @@ src
 .npmrc
 index.ts
 schema.ts
+hash.ts
 .github
 # /*/*.js
 # /*/package.json

@@ -106,9 +106,5 @@ dist
 tsconfig.json.txt
 /node_modules
 /types/
-index.js
-schema.js
-password.js
-schema.d.ts
-index.d.ts
-password.d.ts
+*.js
+*.d.ts

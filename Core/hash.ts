@@ -1,0 +1,1 @@
+// const hash = function(this: any, done: any) = 

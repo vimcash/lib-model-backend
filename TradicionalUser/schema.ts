@@ -68,6 +68,7 @@ export const Schema = new schema
 Schema.pre('save', async function(this: any, done: any) {
   if (this.isModified('password')) {
     const hashed = await Password.toHash(this.get('password'));
+    console.log(this.get('password'))
     this.set('password', hashed);
   }
   done();

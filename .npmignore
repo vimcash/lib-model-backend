@@ -2,7 +2,7 @@ src
 .npmrc
 index.ts
 schema.ts
-hash.ts
+compare.ts
 .github
 # /*/*.js
 # /*/package.json

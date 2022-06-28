@@ -3,4 +3,4 @@ export { TradicionalUserModel } from "./TradicionalUser"
 export { ProductModel } from "./Product"
 export { InventoryModel } from "./Inventory"
 
-export { hash } from "./Core/hash"
+export { compare } from "./Core/compare"

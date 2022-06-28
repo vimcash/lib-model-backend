@@ -1,1 +1,2 @@
-// const hash = function(this: any, done: any) = 
+import { Password } from "../services/password"
+export const hash = (pass: string ) => Password.toHash(pass);

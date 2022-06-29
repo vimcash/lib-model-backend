@@ -13,8 +13,7 @@ Schema.statics.build = (atrib: CompanyUserTable) => {
 };
 
 export const CompanyUserModel = mdl<CompanyUserDocument, Model>(
-  'MDVC002T',
+  'MDVC002C',
   Schema
 );
-
 export default CompanyUserModel

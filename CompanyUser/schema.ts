@@ -35,6 +35,12 @@ export const Schema = new schema
       lowecase: true,
       trim: true
     },
+    companyID: {
+      type: String,
+      required: true,
+      lowercase: true,
+      trim: true
+    },
     createdAt: {
       type: schema.Types.Date,
       default: Date.now,

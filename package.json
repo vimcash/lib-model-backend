@@ -1,6 +1,6 @@
 {
   "name": "vcl-model",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Libreria de modelos",
   "main": "index.js",
   "types": "index.d.ts",

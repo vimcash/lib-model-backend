@@ -1,2 +1,2 @@
 import { Password } from "../services/password"
-export const compare = (hashPass: String, comparePass) => Password.compare(hashPass, comparePass);
+export const compare = (hashPass: string, comparePass) => Password.compare(hashPass, comparePass);

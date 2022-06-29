@@ -13,7 +13,7 @@ Schema.statics.build = (atrib: SimpleCompanyTable) => {
 };
 
 export const SimpleCompanyModel = mdl<SimpleCompanyDocument, Model>(
-  'MDVC002T',
+  'MDVC005S',
   Schema
 );
 

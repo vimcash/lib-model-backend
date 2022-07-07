@@ -3,14 +3,15 @@ import { Schema as schema } from 'mongoose';
 export const Schema = new schema
 (
   {
-    productName: {
+    productID: {
       type: String,
-      uppercase: true,
       required: true,
-    },
-    productDesc: {
-      type: String,
       lowercase: true,
+      trim: true
+    },
+    productQty: {
+      type: Number,
+      required: true,
     },
     createdAt: {
       type: schema.Types.Date,

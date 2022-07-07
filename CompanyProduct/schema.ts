@@ -3,6 +3,12 @@ import { Schema as schema } from 'mongoose';
 export const Schema = new schema
 (
   {
+    companyID: {
+      type: String,
+      required: true,
+      lowercase: true,
+      trim: true
+    },
     productName: {
       type: String,
       uppercase: true,

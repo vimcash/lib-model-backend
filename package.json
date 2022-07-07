@@ -1,6 +1,6 @@
 {
   "name": "vcl-model",
-  "version": "1.0.44",
+  "version": "1.0.47",
   "description": "Libreria de modelos",
   "main": "index.js",
   "types": "index.d.ts",
@@ -8,8 +8,8 @@
     "build-node": "tsc index.ts",
     "build-types": "npx -p typescript tsc index.ts --declaration --allowJs --emitDeclarationOnly",
     "up-version": "npm version --no-git-tag-version patch",
-    "publish": "npm publish --access public",
-    "build-publish": "npm run build-node & npm run build-types & npm run up-version & npm run publish",
+    "publis": "npm publish --access public",
+    "build-publish": "npm run build-node & npm run build-types & npm run up-version & npm run publis",
     "up-interface": "npm uninstall vcl-interface & npm install vcl-interface"
   },
   "repository": {
@@ -28,6 +28,6 @@
     "mongoose": "^6.4.0",
     "my-awesome-greeter": "^1.0.2",
     "typescript": "^4.7.4",
-    "vcl-interface": "^1.1.37"
+    "vcl-interface": "^1.1.42"
   }
 }

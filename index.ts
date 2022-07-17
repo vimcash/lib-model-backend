@@ -1,5 +1,6 @@
 export { BBTurnDeviceModel } from "./BBTurnDevice"
 export { TraditionalUserModel } from "./TraditionalUser"
+export { TraditionalCompanyModel } from "./TraditionalCompany"
 export { ProductModel } from "./Product"
 export { InventoryModel } from "./Inventory"
 export { SimpleCompanyModel } from "./SimpleCompany"

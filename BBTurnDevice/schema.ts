@@ -4,10 +4,6 @@ import { DeviceStatus } from 'vcl-interface';
 export const Schema = new schema
 (
   {
-    companyID: {
-      type: String,
-      required: true,
-    },
     deviceNickname: {
       type: String,
       required: true,

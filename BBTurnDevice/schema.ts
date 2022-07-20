@@ -27,7 +27,7 @@ export const Schema = new schema
       type: String,
       lowercase: true
     },
-    udpatedAt: {
+    updatedAt: {
       type: schema.Types.Date,
       default: Date.now,
     },

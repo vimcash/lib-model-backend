@@ -1,20 +1,20 @@
 import { Schema } from './schema';
 import { Document as document, model as mdl, Model as model} from "mongoose";
-import { TraditionalCompany } from 'vcl-interface';
+import { CompanyClientTable } from 'vcl-interface';
 
-export interface TraditionalCompanyDocument extends document, TraditionalCompany { }
+export interface CompanyClientTableDocument extends document, CompanyClientTable { }
 
-interface Model extends model<TraditionalCompanyDocument> {
-  build(atrib: TraditionalCompany): TraditionalCompanyDocument;
+interface Model extends model<CompanyClientTableDocument> {
+  build(atrib: CompanyClientTable): CompanyClientTableDocument;
 }
 
-Schema.statics.build = (atrib: TraditionalCompany) => {
-  return new TraditionalCompanyModel(atrib);
+Schema.statics.build = (atrib: CompanyClientTable) => {
+  return new CompanyClientTableModel(atrib);
 };
 
-export const TraditionalCompanyModel = mdl<TraditionalCompanyDocument, Model>(
-  'MDVC005T',
+export const CompanyClientTableModel = mdl<CompanyClientTableDocument, Model>(
+  'MDVC006',
   Schema
 );
 
-export default TraditionalCompanyModel
+export default CompanyClientTableModel

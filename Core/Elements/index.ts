@@ -21,6 +21,7 @@ export { productDesc } from "./productDesc";
 export { productID } from "./productID";
 export { productName } from "./productName";
 export { productQty } from "./productQty";
+export { serviceTime } from "./serviceTime";
 export { updatedAt } from "./updatedAt";
 export { updatedBy } from "./updatedBy";
 export { username } from "./username";

@@ -3,6 +3,32 @@ src
 index.ts
 schema.ts
 compare.ts
+active.ts
+clientID.ts
+companyCode.ts
+companyDesc.ts
+companyID.ts
+companyLocation.ts
+companyName.ts
+companyOwner.ts
+companyPhone.ts
+createdAt.ts
+createdBy.ts
+deviceNickname.ts
+deviceNumber.ts
+deviceStatus.ts
+email.ts
+firstName.ts
+lastName.ts
+password.ts
+phoneNumber.ts
+productDesc.ts
+productID.ts
+productName.ts
+productQty.ts
+updatedAt.ts
+updatedBy.ts
+username.ts
 .github
 # /*/*.js
 # /*/package.json

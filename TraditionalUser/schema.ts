@@ -1,58 +1,21 @@
 import { Schema as schema } from 'mongoose';
+import { username, password, firstName, lastName, phoneNumber, email, createdAt, createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
 import { Password } from '../services/password'
 
 export const Schema = new schema
 (
   {
-    username: {
-      type: String,
-      required: true,
-      lowercase: true,
-      unique: true,
-      trim: true
-    },
-    password: {
-      type: String,
-      required: true,
-    },
-    firstName: {
-      type: String,
-      required: true,
-      uppercase: true,
-      trim: true
-    },
-    lastName: {
-      type: String,
-      required: true,
-      uppercase: true,
-      trim: true
-    },
-    phoneNumber: {
-      type: String,
-    },
-    email: {
-      type: String,
-      lowecase: true,
-      trim: true
-    },
-    createdAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    createdBy: {
-      type: String,
-      lowercase: true,
-      trim: true
-    },
-    udpatedAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    updatedBy: {
-      type: String,
-      lowercase: true,
-      trim: true
-    },
+    username,
+    password,
+    firstName,
+    lastName,
+    phoneNumber,
+    email,
+    createdAt,
+    createdBy,
+    updatedAt,
+    updatedBy,
+    active
   },
   {
     toJSON: {

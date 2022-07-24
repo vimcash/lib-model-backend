@@ -1,40 +1,17 @@
 import { Schema as schema } from 'mongoose';
-import { DeviceStatus } from 'vcl-interface';
+import { deviceNickname, deviceNumber, deviceStatus, createdAt,createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
 
 export const Schema = new schema
 (
   {
-    deviceNickname: {
-      type: String,
-      required: true,
-      lowercase: true,
-    },
-    deviceNumber: {
-      type: String,
-      required: true,
-    },
-    deviceStatus: {
-      type: String,
-      required: true,
-      enum: Object.values(DeviceStatus),
-      default: DeviceStatus.user,
-    },
-    createdAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    createdBy: {
-      type: String,
-      lowercase: true
-    },
-    updatedAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    updatedBy: {
-      type: String,
-      lowercase: true
-    },
+    deviceNickname,
+    deviceNumber,
+    deviceStatus,
+    createdAt,
+    createdBy,
+    updatedAt,
+    updatedBy,
+    active
   },
   {
     toJSON: {

@@ -108,3 +108,5 @@ tsconfig.json.txt
 /types/
 *.js
 *.d.ts
+
+# Pruebas

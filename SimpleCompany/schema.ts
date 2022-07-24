@@ -1,37 +1,16 @@
 import { Schema as schema } from 'mongoose';
+import { active, companyDesc, companyName, createdAt, createdBy, updatedAt, updatedBy } from '../Core/Elements';
 
 export const Schema = new schema
 (
   {
-    companyName: {
-      type: String,
-      uppercase: true,
-      required: true,
-      trim: true
-    },
-    companyDesc: {
-      type: String,
-      lowercase: true,
-      trim: true
-    },
-    createdAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    createdBy: {
-      type: String,
-      lowercase: true,
-      trim: true
-    },
-    udpatedAt: {
-      type: schema.Types.Date,
-      default: Date.now,
-    },
-    updatedBy: {
-      type: String,
-      lowercase: true,
-      trim: true
-    },
+    companyName,
+    companyDesc,
+    createdAt,
+    createdBy,
+    updatedAt,
+    updatedBy,
+    active
   },
   {
     toJSON: {

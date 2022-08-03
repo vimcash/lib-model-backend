@@ -1,5 +1,5 @@
 import { Schema as schema } from 'mongoose';
-import { active, apiKey, apiToken, createdAt, createdBy, firstName, lastName, telegramID, updatedAt, updatedBy } from '../Core/Elements';
+import { active, apiKey, apiSecret, createdAt, createdBy, firstName, lastName, telegramID, updatedAt, updatedBy } from '../Core/Elements';
 
 export const Schema = new schema
 (
@@ -8,7 +8,7 @@ export const Schema = new schema
     firstName,
     lastName,
     apiKey,
-    apiToken,
+    apiSecret,
     createdAt,
     createdBy,
     updatedAt,

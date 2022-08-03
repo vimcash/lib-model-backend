@@ -1,6 +1,6 @@
 export { active } from "./active";
 export { apiKey } from "./apiKey";
-export { apiToken } from "./apiToken";
+export { apiSecret } from "./apiSecret";
 export { clientID } from "./clientID";
 export { companyCode } from "./companyCode";
 export { companyDesc } from "./companyDesc";

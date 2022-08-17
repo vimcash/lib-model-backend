@@ -15,7 +15,7 @@ companyPhone.ts
 createdAt.ts
 createdBy.ts
 deviceNickname.ts
-deviceNumber.ts
+deviceCode.ts
 deviceStatus.ts
 email.ts
 firstName.ts

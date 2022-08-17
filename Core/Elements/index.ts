@@ -12,7 +12,7 @@ export { companyPhone } from "./companyPhone";
 export { createdAt } from "./createdAt";
 export { createdBy } from "./createdBy";
 export { deviceNickname } from "./deviceNickname";
-export { deviceNumber } from "./deviceNumber";
+export { deviceCode } from "./deviceCode";
 export { deviceStatus } from "./deviceStatus";
 export { email } from "./email";
 export { firstName } from "./firstName";

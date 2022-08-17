@@ -1,11 +1,11 @@
 import { Schema as schema } from 'mongoose';
-import { deviceNickname, deviceNumber, deviceStatus, createdAt,createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
+import { deviceNickname, deviceCode, deviceStatus, createdAt,createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
 
 export const Schema = new schema
 (
   {
     deviceNickname,
-    deviceNumber,
+    deviceCode,
     deviceStatus,
     createdAt,
     createdBy,

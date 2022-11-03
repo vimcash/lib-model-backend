@@ -1,5 +1,5 @@
 import { Schema as schema } from 'mongoose';
-import { companyName, companyDesc, companyLocation, companyPhone, companyCode, companyOwner, createdAt, createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
+import { companyName, companyDesc, companyLocation, companyPhone, companyOwner, createdAt, createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
 
 export const Schema = new schema
 (
@@ -8,7 +8,6 @@ export const Schema = new schema
     companyDesc,
     companyLocation,
     companyPhone,
-    companyCode,
     companyOwner,
     createdAt,
     createdBy,

@@ -10,5 +10,6 @@ export { CompanyUserModel } from "./CompanyUser";
 export { CompanyInventoryModel } from "./CompanyInventory";
 export { CompanyProductModel } from "./CompanyProduct";
 export { CompanyClientModel } from "./CompanyClient";
+export { CollabUserModel } from "./CollabUser"
 
 export { compare } from "./Core/compare";

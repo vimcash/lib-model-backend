@@ -1,5 +1,5 @@
 import { Schema as schema } from 'mongoose';
-import { deviceNickname, deviceCode, deviceStatus, createdAt,createdBy, updatedAt, updatedBy, active } from '../Core/Elements';
+import { deviceNickname, deviceCode, deviceStatus, createdAt,createdBy, updatedAt, updatedBy, active, type } from '../Core/Elements';
 
 export const Schema = new schema
 (
@@ -7,6 +7,7 @@ export const Schema = new schema
     deviceNickname,
     deviceCode,
     deviceStatus,
+    type,
     createdAt,
     createdBy,
     updatedAt,

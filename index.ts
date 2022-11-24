@@ -1,4 +1,4 @@
-export { BBTurnDeviceModel } from "./BBTurnDevice";
+export { DeviceModel } from "./Device";
 export { BinanceTokenModel } from "./BinanceToken";
 export { TraditionalUserModel } from "./TraditionalUser";
 export { TraditionalCompanyModel } from "./TraditionalCompany";

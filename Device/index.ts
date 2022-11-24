@@ -13,7 +13,7 @@ Schema.statics.build = (atrib: DeviceTable) => {
 };
 
 export const DeviceModel = mdl<DeviceDocument, Model>(
-  'MDVC006',
+  'MDVC0010',
   Schema
 );
 

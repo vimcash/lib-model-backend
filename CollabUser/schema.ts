@@ -1,5 +1,5 @@
 import { Schema as schema } from 'mongoose';
-import { username, password, firstName, lastName, phoneNumber, email, companyID, createdAt, createdBy, updatedAt, updatedBy, active, userCode } from '../Core/Elements';
+import { username, password, firstName, lastName, phoneNumber, email, companyID, createdAt, createdBy, updatedAt, updatedBy, active, userCode, collabStatus } from '../Core/Elements';
 import { Password } from '../services/password'
 
 export const Schema = new schema
@@ -12,6 +12,7 @@ export const Schema = new schema
     userCode,
     phoneNumber,
     email,
+    collabStatus,
     companyID,
     createdAt,
     createdBy,

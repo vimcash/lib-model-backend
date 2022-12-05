@@ -30,3 +30,4 @@ export { updatedBy } from "./updatedBy";
 export { userCode } from "./userCode";
 export { username } from "./username";
 export { type } from "./type";
+export { collabStatus } from "./collabStatus"

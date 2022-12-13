@@ -11,5 +11,6 @@ export { CompanyInventoryModel } from "./CompanyInventory";
 export { CompanyProductModel } from "./CompanyProduct";
 export { CompanyClientModel } from "./CompanyClient";
 export { CollabUserModel } from "./CollabUser"
+export { createdAt, createdBy, updatedAt, updatedBy, active } from "./Core/Elements"
 
 export { compare } from "./Core/compare";
